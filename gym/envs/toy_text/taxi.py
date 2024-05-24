@@ -10,13 +10,14 @@ from gym.envs.toy_text.utils import categorical_sample
 from gym.error import DependencyNotInstalled
 
 MAP = [
-    "+---------+",
-    "|R: | : :G|",
-    "| : | : : |",
-    "| : : : : |",
-    "| | : | : |",
-    "|Y| : |B: |",
-    "+---------+",
+     "+----------+",
+    "|R: | : : :G|",
+    "| : : : : : |",
+    "| | : | | : |",
+    "| : : : : : |",
+    "| : : : | : |",
+    "|Y| : | |B: |",
+    "+-----------+",
 ]
 WINDOW_SIZE = (550, 350)
 
